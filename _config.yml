@@ -49,6 +49,12 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+collections:
+  conferences:
+    output: true
+    title: Notes from Conferences
+    descriptions: What I learned at Conference
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
