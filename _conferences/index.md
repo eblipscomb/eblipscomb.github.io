@@ -8,4 +8,5 @@ permalink: :collection
 <ol>
   {% for item in site.conferences %}
   <li><a href="{{item.url}}">{{ item.title }}</a></li>
+  {% endfor %}
 </ol>
